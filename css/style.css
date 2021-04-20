@@ -12,7 +12,7 @@ body{
     border:none;
     color:white;
     font-size: 12px;
-    
+    margin-left: 5px;
     text-align: center;
     padding: 5px;
     border-radius: 15px;
@@ -79,12 +79,20 @@ header img {
 }
 
 button {
-    background-color: rgb(181, 171, 190) ;
-    color: white;
-    /* border-radius: 25px;
-    border-style: 1px;
-    padding: 5px; 10px;
-    text-align: center; */
+    /* background-color: rgb(191 144 232); */
+    color: rgb (206 197 197);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-align: center; 
+}
+
+.add-task {
+    background-color: rgb(191 144 232);
+}
+
+.add-section {
+    background-color: rgb(235, 219, 219);
 }
 
 ul {
@@ -106,13 +114,28 @@ h3 {
 
 }
 
-.check {
+.check, .cross {
     border-radius: 100%;
-    color: lightgray;
     padding: 3px; 
-    border: 1px solid gray;
     font-size: 10px;
     width: 15px;
     height: 15px;
-    
 }
+    
+    
+.cross {
+    color: rgb(221, 68, 68);
+    border: 1px solid rgb(221, 68, 68);
+}
+    
+
+    
+     
+.check {
+    color: lightgray;
+    border: 1px solid gray;
+
+}
+    
+    
+
