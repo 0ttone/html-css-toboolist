@@ -37,7 +37,7 @@ header img {
     background-color: white;
 }
 
-.button-top {
+.action {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -48,6 +48,22 @@ header img {
 button {
     background-color: rgb(181, 171, 190) ;
     color: white;
-    border-radius: 20%;
+    /* border-radius: 25px;
     border-style: 1px;
+    padding: 5px; 10px;
+    text-align: center; */
+}
+
+ul {
+    list-style: none;
+    padding-left: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
 }
