@@ -5,13 +5,14 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(241, 231, 231);
 }
 
 header {
     width: 100%;
     height: 100px;
     background-color: white;
+    margin-bottom: 50px;
 }
 
 header img {
@@ -27,4 +28,26 @@ header img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     font-weight: 700;
+}
+
+.container {
+    height: 800px;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.button-top {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(216, 197, 197);
+}
+
+button {
+    background-color: rgb(181, 171, 190) ;
+    color: white;
+    border-radius: 20%;
+    border-style: 1px;
 }
