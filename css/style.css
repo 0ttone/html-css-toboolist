@@ -61,6 +61,7 @@ header img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .container {
@@ -87,11 +88,11 @@ button {
     text-align: center; 
 }
 
-.add-task {
+.button .add-task {
     background-color: rgb(191 144 232);
 }
 
-.add-section {
+.button .add-section {
     background-color: rgb(235, 219, 219);
 }
 
@@ -116,16 +117,21 @@ h3 {
 
 .check, .cross {
     border-radius: 100%;
-    padding: 3px; 
-    font-size: 10px;
-    width: 15px;
-    height: 15px;
+    padding-left: 3px;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
 }
+    
+
     
     
 .cross {
     color: rgb(221, 68, 68);
     border: 1px solid rgb(221, 68, 68);
+    text-align: center;
 }
     
 
