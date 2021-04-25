@@ -63,15 +63,16 @@ header img {
     background-color: white;
 }
 
-.action {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+#top-nav {
+    padding: 20px 50px;
     margin-bottom: 10px;
     border-bottom: 1px solid rgb(216, 197, 197);
+   
 }
 
-
+.section-list {
+    padding-left: 30px;
+}
 
 .add-task {
     background-color:#14aaf5;
