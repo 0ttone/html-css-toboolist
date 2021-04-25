@@ -8,6 +8,8 @@ body{
     background-color: rgb(241, 231, 231);
 }
 
+/* utility class */
+
 .tag {
     border:none;
     color:white;
@@ -17,29 +19,19 @@ body{
     padding: 5px;
     border-radius: 15px;
 }
-.editorial {
-    background-color: lightskyblue;
 
-}
-.goal {
-    background-color: cornflowerblue;
-}
-
-.recruiting {
-    background-color: lightgreen;
-}
-
-.mobile {
-    background-color: lightsalmon;
+.button {
+    
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px; 
+    
 }
 
-.website {
-    background-color: lightcoral;
-}
+/* end utility class */
 
-.sales {
-    background-color: rgb(61, 180, 61);
-}
 
 header {
     width: 100%;
@@ -79,21 +71,18 @@ header img {
     border-bottom: 1px solid rgb(216, 197, 197);
 }
 
-button {
-    /* background-color: rgb(191 144 232); */
-    color: rgb (206 197 197);
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    text-align: center; 
+
+
+.add-task {
+    background-color:#14aaf5;
+    border-color: #14aaf5;;
+    color:#fff
 }
 
-.button .add-task {
-    background-color: rgb(191 144 232);
-}
-
-.button .add-section {
-    background-color: rgb(235, 219, 219);
+.add-section {
+    background-color:#fff;
+    border-color: #c4cbd0;
+    color: #c4cbd0;
 }
 
 ul {
@@ -125,9 +114,6 @@ h3 {
     
 }
     
-
-    
-    
 .cross {
     color: rgb(221, 68, 68);
     border: 1px solid rgb(221, 68, 68);
@@ -142,6 +128,33 @@ h3 {
     border: 1px solid gray;
 
 }
+    
+/* tutti diversi tag */
+   
+.editorial {
+    background-color: lightskyblue;
+
+}
+.goal {
+    background-color: cornflowerblue;
+}
+
+.recruiting {
+    background-color: lightgreen;
+}
+
+.mobile {
+    background-color: lightsalmon;
+}
+
+.website {
+    background-color: lightcoral;
+}
+
+.sales {
+    background-color: rgb(61, 180, 61);
+}
+ 
     
     
 
